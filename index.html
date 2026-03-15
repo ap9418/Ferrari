@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ferrari Evolution</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <aside class="timeline" aria-label="Ferrari timeline navigation">
+    <div class="timeline__brand">Ferrari<br><span>Evolution</span></div>
+    <div class="timeline__line"></div>
+    <nav class="timeline__nav">
+      <a href="#car-250gto" class="timeline__item active" data-target="car-250gto">
+        <span class="timeline__dot"></span>
+        <span class="timeline__year">1962</span>
+        <span class="timeline__label">250 GTO</span>
+      </a>
+      <a href="#car-f40" class="timeline__item" data-target="car-f40">
+        <span class="timeline__dot"></span>
+        <span class="timeline__year">1987</span>
+        <span class="timeline__label">F40</span>
+      </a>
+      <a href="#car-enzo" class="timeline__item" data-target="car-enzo">
+        <span class="timeline__dot"></span>
+        <span class="timeline__year">2002</span>
+        <span class="timeline__label">Enzo</span>
+      </a>
+      <a href="#car-laferrari" class="timeline__item" data-target="car-laferrari">
+        <span class="timeline__dot"></span>
+        <span class="timeline__year">2013</span>
+        <span class="timeline__label">LaFerrari</span>
+      </a>
+    </nav>
+  </aside>
+
+  <main>
+    <section class="hero panel" id="intro">
+      <div class="hero__overlay"></div>
+      <div class="hero__content reveal">
+        <p class="hero__eyebrow">A Legendary Timeline</p>
+        <h1>Ferrari Evolution</h1>
+        <p class="hero__subtext">Four cars. One design legacy. Scroll to move from classic sculpted racing lines to the
+          hybrid hypercar era.</p>
+      </div>
+      <div class="hero__scroll">Scroll</div>
+    </section>
+
+    <section class="ferrari-section" id="car-250gto" data-section="car-250gto">
+      <div class="ferrari-sticky">
+        <div class="ferrari-bg bg-gto"></div>
+        <img src="Media/ferrari 250 GTO.png" alt="Ferrari 250 GTO" class="ferrari-car reveal" />
+      </div>
+      <div class="ferrari-content">
+        <div class="ferrari-year reveal">1962</div>
+        <div class="ferrari-desc reveal">The classic grand tourer era — low roofline, long bonnet, rounded bodywork, and
+          unmistakable racing heritage.</div>
+        <div class="ferrari-title reveal">
+          <span class="title-brand">FERRAR<span class="title-brand-i">I</span></span>
+          <span class="title-model">250 GTO</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ferrari-section" id="car-f40" data-section="car-f40">
+      <div class="ferrari-sticky">
+        <div class="ferrari-bg bg-f40"></div>
+        <img src="Media/ferrari F40.png" alt="Ferrari F40" class="ferrari-car reveal" />
+      </div>
+      <div class="ferrari-content">
+        <div class="ferrari-year reveal">1987</div>
+        <div class="ferrari-desc reveal">Sharper, harder, more aggressive. The F40 turns Ferrari form into pure speed,
+          with a wedge silhouette and iconic rear wing.</div>
+        <div class="ferrari-title reveal">
+          <span class="title-brand">FERRAR<span class="title-brand-i">I</span></span>
+          <span class="title-model">F40</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ferrari-section" id="car-enzo" data-section="car-enzo">
+      <div class="ferrari-sticky">
+        <div class="ferrari-bg bg-enzo"></div>
+        <img src="Media/ferrari enzo.png" alt="Ferrari Enzo" class="ferrari-car reveal" />
+      </div>
+      <div class="ferrari-content">
+        <div class="ferrari-year reveal">2002</div>
+        <div class="ferrari-desc reveal">Ferrari design enters the Formula 1 age: angular airflow channels, a dramatic
+          nose, and a body shaped by performance science.</div>
+        <div class="ferrari-title reveal">
+          <span class="title-brand">FERRAR<span class="title-brand-i">I</span></span>
+          <span class="title-model">Enzo</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ferrari-section" id="car-laferrari" data-section="car-laferrari">
+      <div class="ferrari-sticky">
+        <div class="ferrari-bg bg-laferrari"></div>
+        <img src="Media/laferrari.png" alt="LaFerrari" class="ferrari-car reveal" />
+      </div>
+      <div class="ferrari-content">
+        <div class="ferrari-year reveal">2013</div>
+        <div class="ferrari-desc reveal">The car becomes fluid again: lower, cleaner, and more sculpted, whilst entering
+          entering Ferrari’s first hybrid hypercar chapter.</div>
+        <div class="ferrari-title reveal">
+          <span class="title-brand">FERRAR<span class="title-brand-i">I</span></span>
+          <span class="title-model">LaFerrari</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="outro panel" id="outro">
+      <div class="outro__content reveal">
+        <p class="outro__eyebrow">Past to Future</p>
+        <h2>The Line Keeps Moving</h2>
+        <p>Classic racer. Turbo icon. F1-inspired supercar. Hybrid flagship.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
